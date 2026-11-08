@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin : 0 ;
+    background: white ;
+    color: black;
+    transition: 0.3s;
+}
+@font-face {
+    font-family: "Zeyada-Regular";
+    src: url(../fonts/Zeyada-Regular.ttf);
+}
+@font-face {
+    font-family: "TALAL-VF" ;
+    src: url(../fonts/TALAL-VF.ttf);
+}
+.dark{
+    background: #222;
+    color: white;
+}
+.btn-dark{
+    font-family: "TALAL-VF";
+    color:rgba(240, 232, 232, 0.538);
+    background-color: #660303;
+    border-radius: 5px;
+    border: 3px dotted aqua;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+.box1{
+    width: 100% ;
+    margin: 40px auto;
+    font-family: "TALAL-VF";
+    text-align: center;
+    display: inline-block;
+}
+.text{
+    width: 80% ;
+    margin: 10px auto;
+    font-family: "Zeyada-Regular";
+}
+.box2{
+    width: 100% ;
+    margin: 40px auto;
+    text-align: center;
+    font-size:x-large;
+    font-family: "Zeyada-Regular";
+
+}
+.box1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+i:hover{
+    color: brown;
+}
