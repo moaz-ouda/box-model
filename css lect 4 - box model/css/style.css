@@ -29,36 +29,78 @@ body{
     margin: 20px;
     padding: 5px 10px;
 }
+.btn-dark:hover{
+    color: #222;
+    background-color: #ffff;
+    transition: 0.5s;
+}
+.content{
+    background-color: #2ba5ce6e;
+    height: 5px ;
+    width: 300px ;
+    margin: auto ;
+    
+    
+}
 h1{
     color: rgba(255, 235, 205, 0.599);
     text-shadow: 2px 2px 0px rgb(0, 166, 255);
 }
 h1:hover{
     color: blue;
+    transition: 0.7s;
 }
 h2:hover{
     color: green;
+    transition: 0.7s;
 }
 h2{
     color: rgba(15, 102, 179, 0.66);
     text-shadow: 1px 1px 0px rgb(39, 139, 2);
 }
 .box1{
-    width: 100% ;
-    margin: 40px auto;
+    width: 45% ;
+    margin: 40px 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: "TALAL-VF";
     text-align: center;
     display: inline-block;
+    border: 2px  dotted black;
+    
+}
+.box3{
+    width: 45% ;
+    margin: 40px -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "TALAL-VF";
+    text-align: center;
+    display: inline-block;
+    border: 2px  dotted black;
+    
+}
+.box3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dashed rgba(14, 139, 241, 0.858) ;
 }
 .text{
     
     border: 2px dashed aqua ;
-    max-width: 40% ;
+    width: 40% ;
+    max-height: 300px;
     margin:  auto;
     font-family: "Zeyada-Regular";
+    overflow: auto;
+    line-height: 1,6 ;
+    letter-spacing: 3px ;
 }
+
 .text:hover{
-    color:rgb(120, 4, 4);
+    color:rgba(1, 251, 67, 0.747) ;
+    transition: 0.5s;
 }
 .box2{
     width: 100% ;
