@@ -29,7 +29,20 @@ body{
     margin: 20px;
     padding: 5px 10px;
 }
-
+h1{
+    color: rgba(255, 235, 205, 0.599);
+    text-shadow: 2px 2px 0px rgb(0, 166, 255);
+}
+h1:hover{
+    color: blue;
+}
+h2:hover{
+    color: green;
+}
+h2{
+    color: rgba(15, 102, 179, 0.66);
+    text-shadow: 1px 1px 0px rgb(39, 139, 2);
+}
 .box1{
     width: 100% ;
     margin: 40px auto;
@@ -38,14 +51,20 @@ body{
     display: inline-block;
 }
 .text{
-    width: 80% ;
-    margin: 10px auto;
+    
+    border: 2px dashed aqua ;
+    max-width: 40% ;
+    margin:  auto;
     font-family: "Zeyada-Regular";
+}
+.text:hover{
+    color:rgb(120, 4, 4);
 }
 .box2{
     width: 100% ;
     margin: 40px auto;
     text-align: center;
+    display: inline-block;
     font-size:x-large;
     font-family: "Zeyada-Regular";
 
@@ -54,7 +73,13 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 2px dashed rgba(14, 139, 241, 0.858) ;
+}
+i {
+    color: aquamarine;
+    font-size: 30px ; 
 }
 i:hover{
     color: brown;
+
 }
